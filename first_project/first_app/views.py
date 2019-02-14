@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from first_app.models import Topic, Webpage, AccessRecord
+from first_app.models import Topic, Webpage, AccessRecord #, User
 
 # Create your views here.
 def index(request):
